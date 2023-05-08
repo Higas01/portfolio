@@ -1,5 +1,5 @@
 import React from "react";
-import "./threeSection.css";
+import "./ThreeSection.css";
 import { FaReact, FaJs, FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiTypescript, SiHtml5, SiCss3 } from "react-icons/si";
