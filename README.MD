@@ -1,6 +1,8 @@
 # Projeto Portfolio
 Neste projeto criei meu portfolio e também utilizei o esquema de uma landing page para mostrar minhas habilidades.
 
+Deploy da aplicação: 
+
 ### Tecnologias usadas no projeto:
 * HTML
 * CSS
