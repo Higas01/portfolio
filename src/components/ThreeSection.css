@@ -1,0 +1,98 @@
+.three-section {
+  background-color: #0d0d0d;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.h1-three-section {
+  font-size: 6rem;
+  color: #fff;
+}
+
+.full-container-three-section {
+  gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: inherit;
+  flex-wrap: wrap;
+}
+
+.h2-three-section {
+  font-size: 5rem;
+}
+
+.p-three-section {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.icon-three-section {
+  font-size: 15rem;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3rem;
+  position: relative;
+}
+
+.container-icons svg {
+  cursor: pointer;
+  color: #0096ff;
+  transition: 0.5s ease-in-out;
+}
+
+.box {
+  height: 250px;
+  width: 250px;
+  border: 1px solid #505050;
+  border-radius: 10px;
+  background-color: #262626;
+  padding: 2rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+.box h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.box:hover svg {
+  font-size: 3rem;
+}
+
+.box .content {
+  width: 100%;
+  height: 100%;
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+
+.box:hover .content {
+  display: block;
+}
+
+.box:not(:hover) svg {
+  transform: translate(0, 0);
+}
+
+.box .content p {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 880px) {
+  .h1-three-section {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+
+  .container-second-section-p {
+    width: auto;
+  }
+}

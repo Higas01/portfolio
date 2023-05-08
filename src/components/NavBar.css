@@ -1,0 +1,123 @@
+.navbar {
+  z-index: 1;
+  background: #0d0d0d;
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #262626;
+}
+
+.navbar-home {
+  z-index: 1;
+  display: flex;
+}
+
+.li-navbar {
+  color: #fff;
+  cursor: pointer;
+  margin: 3rem;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 2s;
+}
+
+.li-navbar:hover {
+  color: #0096ff;
+}
+
+.navbar-burguer {
+  background-color: #070707;
+  z-index: 1000;
+  width: 100%;
+  position: fixed;
+  padding: 1rem;
+  border-bottom: 1px solid #262626;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-burguer {
+  padding: 1rem;
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-burguer {
+  margin: 0 auto;
+}
+
+.body-menu-burguer {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.menu-burguer-open {
+  z-index: 100;
+  gap: 2rem;
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #0c030e;
+  position: fixed;
+}
+
+.menu-burguer-open,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.close-menu-burguer {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  font-size: 5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.li-menu-burguer {
+  margin: 2rem;
+}
+
+.menu-burguer-close {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-menu-burguer-hidden {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar-burguer {
+    display: flex;
+  }
+}

@@ -1,0 +1,84 @@
+.first-section {
+  background: #0d0d0d;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.astronauta {
+  margin-left: 2rem;
+  max-height: 500px;
+  max-width: 500px;
+  animation-name: floating;
+  animation: floating infinite ease-in-out;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.icon-first-section {
+  color: #fff;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 5%;
+  transition: 2s color ease-in-out;
+}
+.icon-first-section:hover {
+  color: #0096ff;
+}
+
+.container-icon-first-section {
+  margin: 3rem;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.h1-first-section {
+  color: #fff;
+  font-size: 7rem;
+  animation: fadeIn 5s ease-in-out;
+}
+
+.h2-first-section {
+  font-size: 4rem;
+  color: #0096ff;
+  text-shadow: #0096ff 0px 0px 10px;
+}
+
+@media (max-width: 1550px) {
+  .h1-first-section {
+    font-size: 4rem;
+  }
+
+  .astronauta {
+    max-height: 500px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 1550px) {
+  .h1-first-section {
+    font-size: 4rem;
+  }
+
+  .astronauta {
+    max-height: 400px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 880px) {
+  .astronauta {
+    display: none;
+  }
+}

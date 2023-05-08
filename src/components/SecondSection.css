@@ -1,0 +1,50 @@
+.second-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #070707;
+  min-height: 50vh;
+  flex-wrap: wrap;
+}
+
+.h1-second-section {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.p-second-section {
+  margin: 3rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.container-second-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-second-section-p {
+  text-align: center;
+  width: 50%;
+}
+
+.astronauta-second-section {
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
+  border-right: none;
+}
+
+@media (max-width: 880px) {
+  .astronauta-second-section {
+    display: none;
+  }
+
+  .container-second-section-p {
+    width: auto;
+  }
+}
