@@ -14,8 +14,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import HMEstoque from "../images/tela inicial.png";
-import Login from "../images/Login.png";
-import HMFilmes from "../images/HMMovie.png";
+import Login from "../images/login.png";
+import HMFilmes from "../images/HMmovie.png";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Element } from "react-scroll";
