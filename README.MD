@@ -1,7 +1,7 @@
 # Projeto Portfolio
 Neste projeto criei meu portfolio e também utilizei o esquema de uma landing page para mostrar minhas habilidades.
 
-Deploy da aplicação: 
+Deploy da aplicação: https://portfolio-sigma-three-10.vercel.app
 
 ### Tecnologias usadas no projeto:
 * HTML
