@@ -5,7 +5,7 @@
 }
 
 .h1-three-section {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
 }
 
@@ -47,8 +47,8 @@
 }
 
 .box {
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   border: 1px solid #505050;
   border-radius: 10px;
   background-color: #262626;
@@ -62,7 +62,7 @@
 }
 
 .box:hover svg {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .box .content {
