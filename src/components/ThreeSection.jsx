@@ -58,8 +58,7 @@ const ThreeSection = () => {
               <div className="content">
                 <p>
                   Typescript é uma linguagem de código aberto desenvolvida pela
-                  Microsoft que foi construída em cima do Javascript, que é
-                  muito difundido atualmente
+                  Microsoft que foi construída em cima do Javascript
                 </p>
               </div>
             </div>
