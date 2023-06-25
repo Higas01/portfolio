@@ -12,7 +12,7 @@ const SecondSection = () => {
         <div className="container-second-section">
           <div className="container-second-section-p">
             <p className="p-second-section">
-              Me chamo Higor Matheus, começei meus estudos na programação em
+              Me chamo Higor Matheus, comecei meus estudos na programação em
               2021, desde então estudo com foco em me tornar um desenvolvedor
               full-stack. Realizei diversos projetos tanto com tecnologias
               front-end quanto back-end, todos estão presentes em meu github

@@ -2,7 +2,7 @@ import React from "react";
 import "./ThreeSection.css";
 import { FaReact, FaJs, FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { SiTypescript, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiTypescript, SiHtml5, SiCss3, SiMysql, SiNestjs } from "react-icons/si";
 import { Element } from "react-scroll";
 const ThreeSection = () => {
   return (
@@ -82,7 +82,7 @@ const ThreeSection = () => {
                 </p>
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </section>
     </Element>
