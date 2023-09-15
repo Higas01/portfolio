@@ -16,6 +16,7 @@ import "swiper/css/navigation";
 import HMEstoque from "../images/tela inicial.png";
 import Login from "../images/login.png";
 import HMFilmes from "../images/HMmovie.png";
+import recrutaJr from "../images/recrutaJr.png"
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Element } from "react-scroll";
@@ -60,6 +61,26 @@ const FourSection = () => {
                   </a>
                   <a
                     href="https://projeto-estoque-gamma.vercel.app/#/"
+                    target="_blank"
+                  >
+                    <AiOutlineLink />
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card">
+                <img src={recrutaJr} alt="" />
+                <h3>Projeto: Recruta Juninho</h3>
+                <div className="container-links-four-section">
+                  <a
+                    href="https://github.com/Higas01/Recruta_juninho"
+                    target="_blank"
+                  >
+                    <BsGithub />
+                  </a>
+                  <a
+                    href="https://recrutajuninho.netlify.app"
                     target="_blank"
                   >
                     <AiOutlineLink />
@@ -135,6 +156,24 @@ const FourSection = () => {
               </a>
               <a
                 href="https://projeto-estoque-gamma.vercel.app/#/"
+                target="_blank"
+              >
+                <AiOutlineLink />
+              </a>
+            </div>
+          </div>
+          <div className="card-media-query">
+            <img src={recrutaJr} alt="" />
+            <h3>Projeto: Recruta Juninho</h3>
+            <div className="container-links-four-section">
+              <a
+                href="https://github.com/Higas01/Recruta_juninho"
+                target="_blank"
+              >
+                <BsGithub />
+              </a>
+              <a
+                href="https://recrutajuninho.netlify.app"
                 target="_blank"
               >
                 <AiOutlineLink />
